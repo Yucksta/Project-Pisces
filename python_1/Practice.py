@@ -1,4 +1,6 @@
 import os
+import math
+import time
 
 os.system('clear')
 
@@ -22,6 +24,8 @@ str(input("\n\nStart            "))
 
 score = [0, 0]
 who = [1, 2]
+time.sleep(10)
+
 
 def ACSIIcheck ():
     def translate(l, m):
