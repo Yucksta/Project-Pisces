@@ -10,3 +10,24 @@ h1 {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+
+.container1{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    height: 5%;
+    width: 30%;
+    background-color: rgb(139, 241, 139);
+    border-radius: 15px; 
+}
+
+#container2{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    height: 5%;
+    width: 50%;
+    background-color: rgb(139, 241, 139);
+    border-radius: 15px; 
+}
