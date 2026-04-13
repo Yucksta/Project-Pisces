@@ -2,11 +2,19 @@ console.log("Code is running. Running where? I don't know.");
 let countvariablethatalsoneedstobethisway = 0;
 let Atleast1iteratedarraywithaccessedandusedelementsinit = [];
 let done206 = [false, "This looks horrible, but this technically still works... right? (please don't grade thos 0/0)"];
-document.getElementById("test").onclick = function() {
+const documentaryelementalstatus = document.getElementById("test");
+const extra1 = document.getElementsByClassName("container1")
+
+extra1[1].innerHTML.style.color = "rgb(255, 0, 0)";
+
+for (x = 0; x = extra1.length() + 1; x++) {
+    console.log("hi")
+}
+
+documentaryelementalstatus.onclick = function() {
     if (done206[0] == false){
         done206[0] = true;
         while (countvariablethatalsoneedstobethisway < 100000) {
-            const documentaryelementalstatus = document.getElementById("test");
             const temporarylimitvariablethatwasenlargenedtoanunreasonablelengthforschoology = countvariablethatalsoneedstobethisway;
             function ComputerFrameUpdatingSoftwareDesignedToRepresentTheIllusionOfChioce () {
                 documentaryelementalstatus.style.fontSize =  15 + Math.abs(Math.sin(temporarylimitvariablethatwasenlargenedtoanunreasonablelengthforschoology / 100) * 2) + "px";
