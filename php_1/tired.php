@@ -1,3 +1,5 @@
 <?php
-    echo("ihnunjn ygv t tuv iy");
+    for ($i = 1; $i <= 30; $i++) {
+        echo($i);
+    };
 ?>
