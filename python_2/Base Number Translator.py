@@ -28,4 +28,4 @@ while (True):
         break
     translate(Sys[0], Sys[1])
 print("Thanks for testing.")
-#At least one comment
+#Comment example for activity.
